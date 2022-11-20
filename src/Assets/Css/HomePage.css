@@ -1,0 +1,102 @@
+.bg-image{
+    width: 100%;
+    height: 75vh;
+    background-image: url('https://www.atlantic.caa.ca/content/dam/caa/travel/explore-articles/trusted-travel-explore-hero.jpg');
+    background-repeat: no-repeat;
+}
+.hero-text-content{
+    height: 50%;
+}
+.hero-text-title-1{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.hero-text-title-2{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.hero-btn{
+    background-color: white;
+    max-width: 200px;
+}
+.hero-btn:hover{
+    background-color: green !important;
+    color: white !important;
+}
+.text-content-btn{
+    background-color: white;
+    max-width: 200px !important;
+    border: 1px solid green !important;
+    border-radius: 0 !important;
+}
+.text-content-btn:hover{
+    background-color: green !important;
+    color: white !important;
+}
+.text-conent-color{
+    color: rgb(170, 169, 169);
+}
+
+.image-text-content{
+    padding: 4.5rem 7.5rem;
+}
+.quik-links{
+    padding: 0;
+    list-style: none;
+}
+.quik-links a{
+    text-decoration: none;
+    font-style: none;
+    color: gray;
+}
+.contact-email{
+    text-decoration: underline;
+}
+.send-btn:hover{
+    color: green !important;
+    border: 1px solid green !important;
+    background-color: white !important;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .hero-text-content{
+        height: 75%;
+    }
+    .image-text-content{
+        padding: 1.5rem 2.5rem;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero-text-content{
+        height: 75%;
+    }
+    .image-text-content{
+        padding: 1.5rem 2.5rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .image-text-content{
+        padding: 1.5rem 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text-content{
+        height: 75%;
+    }
+    .hero-text-title-1{
+        font-size: 1rem;
+    }
+    .hero-text-title-2{
+        font-size: 1.5rem;
+    }
+    .image-text-content{
+        padding: 1.5rem 1.5rem;
+    }
+    .text-content-btn{
+        max-width: 100%;
+    }
+}
